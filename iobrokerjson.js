@@ -17,6 +17,6 @@ console.log("-------")
 console.log("print single values")
 
 console.log("Time = " + a);
-console.log("AO = " + b);
+console.log("A0 = " + b);
 console.log("Temperature = " + c);
 console.log("Humidity = " + d);
