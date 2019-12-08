@@ -1,3 +1,5 @@
+function getState(arg){return arg;}
+
 var inDP = "mqtt.0.tele.tasmota.SENSOR";
 var inhalt = getState(inDP).val;
 inhalt = JSON.parse(inhalt);
