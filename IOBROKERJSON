@@ -1,0 +1,13 @@
+var inDP = "mqtt.0.tele.tasmota.SENSOR";
+var inhalt = getState(inDP).val;
+inhalt = JSON.parse(inhalt);
+ 
+var a = inhalt.Time;
+var b = inhalt.AO;
+var c = inhalt.Temperature;
+var d = inhalt.Humidity;
+ 
+log("Time = " + a);
+log("AO = " + b);
+log("Temperature = " + c);
+log("Humidity = " + d);
